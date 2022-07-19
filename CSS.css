@@ -1,63 +1,89 @@
+body {
+    margin: 0px;
+    background-image: url(./background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    
+
+}
+h1 {
+    font-family: fantasy;
+    color: aliceblue;
+    font-weight: lighter;
+    margin: 2%
+}
 @media (min-width:922px){
-    body {
-        margin: 0px;
-        background-color: beige;
-    }
-    h1 {
-        position: relative;
-        display: block;
-        font-size: 175%;
-        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        box-sizing:border-box;
-        float:left;
-        text-align: center;
-        left:50%;
-    }
-    div.title {
-        position: relative;
-    }
-    div{
-        clear: left;
-        margin: 0px;
-    }
+    /*section*/
     section{
-        margin: 0.55%;
-        float:left;
+        margin: 2%;
+        float:right;
         position: relative;
-        background-color: rgb(165, 255, 225);
-        border-color: rgb(0, 65, 75);
-        border-style: solid;
-        border-width: 3px;
+        background-color: rgb(223, 223, 223,0.2);
+        width: 65%;
+        padding: 0px;
         box-sizing: border-box;
-        width: 32%;
+        clear: both;
+        margin-right:  4%;;
     }
+    section.ContentList {
+        position: fixed;
+        box-sizing: border-box;
+        background-color: rgb(223, 223, 223,0.4);
+        padding: 3px;
+        width : 25%;
+        height: 100%;
+        margin-left:1%;
+    }
+    /*List*/
+    ul.ContentList {
+        font-family: fantasy;
+        list-style :none;
+        font-size: 125%;
+        box-sizing: border-box;
+        width: 80%;
+        padding: 0%;
+        margin-left: 10%;
+        border: 0px;
+        text-decoration: none;
+    }
+    li {
+        text-align: left;
+        text-decoration: none;
+    }
+    li:hover{
+        background-color:rgba(240, 255, 255, 0.625);
+        text-decoration: none;
+    }
+    a {
+        color:rgb(0, 0, 0);
+        text-decoration: none;
+    };
     section > div {
         clear:right;
     }
     header.section {
-        display: inline;
+        display: block;
         text-align: center;
-        float: right;
-        background-color: rgb(0, 94, 94);
-        background-position: right;
+        background-color: rgba(74, 12, 46, 0.627);
         color:aliceblue;
-        padding: 3px;
+        width : 20%;
+        padding: 6px;
         margin: 0%;
         font-family: fantasy;
         font-weight: 100;
     }
-    img {
-        display: block;
-        width: 100%;
-        opacity: 100%;
+    div#listvideo {
+        text-align: center;
     }
     video {
-        width: 100%;
-        float:left;
+        width: 80%;
     }
+
 }
 @media (min-width:768px) and (max-width:991px){
-
+    
 }
 @media (max-width:767px){
 
