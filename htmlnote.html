@@ -6,10 +6,8 @@
 <link rel="stylesheet" href ="./CSS.css" >
 </head>
 <body>
-    <div id ="h1"><h1>HTML NOTE</h1></div>
     <div>
         <section class = "ContentList">
-            <div id = "listvideo"><video src="./01.mp4"autoplay muted loop></video></div>
             <ul class = "ContentList">
                 <li><a href=#readme> #0 Read Me</li>
                 <li><a href=#HtmlStructure> #1 HTML Structure</li>
@@ -28,11 +26,44 @@
             <header class="section" id ="HtmlStructure" >
                 HTML Structure
             </header>
-            <div>
-
+            <div class="content" >
+                In this section, we are about to explain the basic of HTML.
+            </div>
+            <header class = "content">
+                Elements
+            </header>
+            <div class="content" >
+                HTML is composed of multiple type of elements,every elements has its own utilities, Below is the basic structure of element. 
+            </div>
+            <div class = "example">
+                &lt;<span class = "tag">tag</span> <span class = "attribute">attribute</span>&gt; content  &lt;/<span class = "tag">tag</span>&gt;
+            </div>
+            <div class = "content">
+                As showed above, HTML element is composed of <span class = "important">tags</span>, 
+                the former one is called <span class = "important">opening tag</span> , the latter one with a <span class = "important">/</span> is called <span class = "important">closing tag</span>, 
+                these two tags define a html element.
+            </div>
+            <div class = "content">
+                <span class = "important">Attribute</span> is used to give elements feature or their usage category in the whole HTML,
+                sometimes it is also possible to set up decorate style.
+            </div>
+            <header class = "content">
+                Tags
+            </header>
+            <div class="content" >
+                Here shows some common HTML tag along with their display attribute and usage.
+            </div>
+            <div class = "example">
+                <ul id = "common">
+                    <li>&lt;<span class = "tag">div</span>&gt; : </li>
+                    <li>&lt;<span class = "tag">span</span>&gt; : </li>
+                </ul>
             </div>
             
         </section>
     </div>
+    <script id="__bs_script__">//<![CDATA[
+        document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.js?v=2.27.10'><\/script>".replace("HOST", location.hostname));
+    //]]></script>
 </body>
 </html>
